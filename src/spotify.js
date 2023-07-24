@@ -2,7 +2,7 @@ import axios from "axios";
 
 const authEndpoint="https://accounts.spotify.com/authorize?";
 const clientId="68df798fb9414d1e96088bf6ea8f053a";
-const redirectUri="http://localhost:3000";
+const redirectUri="https://animated-daifuku-d0a750.netlify.app/";
 const scopes=["user-library-read","playlist-read-private"];
 
 export const loginEndpoint = `${authEndpoint}client_id=${clientId}&redirect_uri=${redirectUri}&scope=${scopes.join(
